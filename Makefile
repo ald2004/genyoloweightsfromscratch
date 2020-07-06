@@ -6,4 +6,4 @@ LDFLAGS= -Wall -Wfatal-errors -Wno-unused-result -Wno-unknown-pragmas -fPIC -Ofa
 
 
 all:
-	g++ -std=c++11 $(LDFLAGS) $(OBJS) testnetwork.cpp -o tt -I$(darknet)/src -I$(darknet)/include -I$(darknet)/3rdparty/stb/include
+	g++ -std=c++11 $(LDFLAGS) $(OBJS) loadfromc.cpp -o tt -I$(darknet)/src -I$(darknet)/include -I$(darknet)/3rdparty/stb/include
